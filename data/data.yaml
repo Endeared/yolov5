@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['person']
+
+roboflow:
+  workspace: project
+  project: rblxaimbot
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/project/rblxaimbot/dataset/1
